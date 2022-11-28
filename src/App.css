@@ -1,9 +1,43 @@
-h1{
+.title {
   font-family: 'Montserrat', sans-serif;
   margin: 50px 100px;
   letter-spacing: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.image-item{
-  height: 500px;
+.title h1 {
+  color: #9E21CA;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+
+.subtitle {
+  display: flex;
+}
+
+.subtitle a {
+  text-decoration: none;
+  color: black;
+}
+
+.subtitle .icon {
+  margin-right: 15px;
+}
+
+.subtitle .icon:hover {
+  color: #9E21CA;
+  transform: scale(1.2);
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+img {
+  margin-top: 20px;
+  height: 70vh;
 }
